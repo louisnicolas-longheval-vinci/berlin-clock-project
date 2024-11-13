@@ -8,3 +8,15 @@
 - `refactor` : Modification du code sans ajout de fonctionnalité ni correction de bug
 - `test` : Ajout ou modification de tests
 - `chore` : Autres changements (mise à jour de build, outils...)
+
+#### Exemple :
+```bash
+git commit -m "feat(minutes-row): implémentation de la ligne des minutes simples
+
+Conducteur: Alice Dupont
+Navigateur: Bob Martin
+
+Co-authored-by: Alice Dupont <alice@example.com>
+Co-authored-by: Bob Martin <bob@example.com>"
+
+```
