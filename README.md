@@ -1,6 +1,35 @@
 # Berlin Clock Project
 
-### Types of Commit:
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/berlin-clock-kata.git
+   cd berlin-clock-kata
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+- **Run tests:**
+
+  ```bash
+  npm test
+  ```
+
+- **Run the Berlin Clock in the terminal:**
+
+  ```bash
+  node berlinClockTerminal.js
+  ```
+
+## Types of Commit:
 - `feat` : Ajout d'une nouvelle fonctionnalité
 - `fix` : Correction d'un bug
 - `docs` : Modification de la documentation
@@ -20,3 +49,8 @@ Co-authored-by: Alice Dupont <alice@example.com>
 Co-authored-by: Bob Martin <bob@example.com>"
 
 ```
+
+## Team Members 
+- Alona Mykhailenko
+- Moulay Nimour
+- Louis-Nicolas Longheval
