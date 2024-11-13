@@ -5,8 +5,8 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/louisnicolas-longheval-vinci/berlin-clock-kata.git
-   cd berlin-clock-kata
+   git clone https://github.com/louisnicolas-longheval-vinci/berlin-clock-project.git
+   cd berlin-clock-project
    ```
 
 2. **Install dependencies:**
