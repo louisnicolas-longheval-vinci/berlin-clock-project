@@ -5,7 +5,7 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/berlin-clock-kata.git
+   git clone https://github.com/louisnicolas-longheval-vinci/berlin-clock-kata.git
    cd berlin-clock-kata
    ```
 
