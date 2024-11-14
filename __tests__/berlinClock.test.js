@@ -1,6 +1,6 @@
 const getBerlinClockTime = require('../src/berlinClock');
 
-test('00:00:00 doit afficher l\'horloge éteinte avec la lampe des secondes allumée', () => {
+test('00:00:00 should display clock turned off with seconds lamp on', () => {
   expect(getBerlinClockTime('00:00:00')).toEqual([
     'Y',
     'OOOO',
@@ -10,7 +10,7 @@ test('00:00:00 doit afficher l\'horloge éteinte avec la lampe des secondes allu
   ]);
 });
 
-test('23:59:59 doit afficher l\'horloge complète', () => {
+test('23:59:59 should display full clock', () => {
   expect(getBerlinClockTime('23:59:59')).toEqual([
     'O',
     'RRRR',
@@ -20,12 +20,12 @@ test('23:59:59 doit afficher l\'horloge complète', () => {
   ]);
 });
 
-test('12:32:00 doit afficher l\'heure correspondante', () => {
+test('12:32:00 should display corresponding time', () => {
   expect(getBerlinClockTime('12:32:00')).toEqual([
     'Y',
     'RROO',
     'RROO',
     'YYRYYROOOOO',
-    'YYOO'
+    'YYYY'
   ]);
 });

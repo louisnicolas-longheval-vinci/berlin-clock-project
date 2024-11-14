@@ -6,19 +6,19 @@ function displayBerlinClock(time) {
 
   const displayLamp = (lamp) => {
     if (lamp === 'R') {
-      return clc.bgRed('   ');
+      return clc.bgRed('  ');
     } else if (lamp === 'Y') {
-      return clc.bgYellow('   ');
+      return clc.bgYellow('  ');
     } else {
-      return clc.bgBlackBright('   ');
+      return clc.bgBlackBright('  ');
     }
   };
 
   console.clear();
-  console.log(clc.bold('Horloge de Berlin\n'));
+  console.log(clc.bold('Berlin Clock\n'));
 
   // Lampe des secondes
-  console.log(`     ${displayLamp(secondsLamp)}     \n`);
+  console.log(`      ${displayLamp(secondsLamp)}     \n`);
 
   // Lignes des heures
   console.log(
@@ -44,25 +44,24 @@ function displayBerlinClock(time) {
       .split('')
       .map((lamp, index) => {
         if (lamp === 'R') {
-          return clc.bgRed('   ');
+          return clc.bgRed('  ');
         } else if (lamp === 'Y') {
-          return clc.bgYellow('   ');
+          return clc.bgYellow('  ');
         } else {
-          return clc.bgBlackBright('   ');
+          return clc.bgBlackBright('  ');
         }
       })
       .join(' ')
   );
-  console.log('\n')
   console.log(
-    '  ' +
+    '\n  ' +
       minutesRow
         .split('')
         .map(displayLamp)
         .join(' ') +
       '  \n'
   );
-  console.log(clc.bold(`Heure actuelle : ${time}`));
+  console.log(clc.bold(`Current Time : ${time}`));
 }
 const updateClock = () => {
   const now = new Date();
