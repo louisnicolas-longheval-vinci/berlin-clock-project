@@ -53,4 +53,4 @@ Co-authored-by: Bob Martin <bob@example.com>"
 ## Team Members 
 - Alona Mykhailenko
 - Moulay Nimour
-- Louis-Nicolas Longheval
+- Louis-Nicolas Longheval (Louni)
