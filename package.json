@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jest"
   },
+  "dependencies": {
+    "cli-color": "^2.0.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
