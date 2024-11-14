@@ -42,11 +42,11 @@
 ```bash
 git commit -m "feat(minutes-row): implémentation de la ligne des minutes simples
 
-Conducteur: Alice Dupont
-Navigateur: Bob Martin
+Conducteur: Nom du conducteur
+Navigateur: Nom du navigateur
 
-Co-authored-by: Alice Dupont <alice@example.com>
-Co-authored-by: Bob Martin <bob@example.com>"
+Co-authored-by: Nom du conducteur
+Co-authored-by: Nom du navigateur"
 
 ```
 
